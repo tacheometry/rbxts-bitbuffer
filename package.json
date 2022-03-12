@@ -1,0 +1,27 @@
+{
+    "name": "@rbxts/bitbuffer",
+    "version": "1.1.0-ts.1",
+    "description": "A binary stream module for packing binary data. roblox-ts typings for bitbuffer by Dekkonot.",
+    "homepage": "https://dekkonot.github.io/bitbuffer/",
+    "repository": "github:tacheometry/rbxts-bitbuffer",
+    "main": "src/roblox.lua",
+    "scripts": {},
+    "keywords": [
+        "roblox-ts",
+        "roblox"
+    ],
+    "author": "tacheometry",
+    "license": "MIT",
+    "types": "src/types.d.ts",
+    "files": [
+        "src/roblox.lua",
+        "src/types.d.ts"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@rbxts/compiler-types": "^1.3.2-types.0",
+        "@rbxts/types": "^1.0.571"
+    }
+}
