@@ -10,7 +10,10 @@
         "roblox-ts",
         "roblox"
     ],
-    "author": "tacheometry",
+    "author": "Dekkonot",
+    "contributors": [
+        "tacheometry"
+    ],
     "license": "MIT",
     "types": "src/types.d.ts",
     "files": [
