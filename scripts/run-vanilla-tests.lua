@@ -1,11 +1,13 @@
+--# selene: allow(incorrect_standard_library_use)
+
 local try = require("tests.try")
 
 local BitBuffer = require("src.vanilla")
 local CommonSpec = "tests.common-spec"
-local commonSpecModuleNames = require(CommonSpec .. '.init')
+local commonSpecModuleNames = require(CommonSpec .. ".init")
 
 local function runTestModule(name, parent)
-    local test = require(parent .. '.' .. name)
+    local test = require(parent .. "." .. name)
     test(try.new, BitBuffer)
 end
 
