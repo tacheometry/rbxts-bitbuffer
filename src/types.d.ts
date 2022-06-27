@@ -8,7 +8,7 @@ interface BitBuffer {
 	writeByte: (n: number) => void;
 
 	/** Writes an arbitrary width unsigned integer to the BitBuffer.The width **MUST** be in the range [1, 64] */
-	writeUnsigned: (n: number) => void;
+	writeUnsigned: (width: number, n: number) => void;
 
 	/** Writes an arbitrary width signed integer to the BitBuffer. The width **MUST** be in the range [2, 63] */
 	writeSigned: (width: number, n: number) => void;
